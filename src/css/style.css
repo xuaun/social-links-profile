@@ -1,0 +1,104 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-body-color);
+  height: 100vh;
+  min-height: 615px;
+  min-width: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* CARD */
+
+.card {
+  background-color: var(--background-card-color);
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.card .avatar {
+  align-self: center;
+}
+
+.card .avatar img {
+  max-width: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.card .profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card .profile-info .name {
+  color: var(--text-color);
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  line-height: var(--title-line-height);
+  letter-spacing: var(--title-letter-spacing);
+  margin-bottom: 4px;
+}
+
+.card .profile-info .location {
+  color: var(--text-loc-color);
+  font-size: var(--text2-font-size);
+  font-weight: var(--text2bold-font-weight);
+  line-height: var(--text2-line-height);
+  letter-spacing: var(--text2-letter-spacing);
+}
+
+.card .profile-info .bio {
+  color: var(--text-color);
+  font-size: var(--text2-font-size);
+  font-weight: var(--text2-font-weight);
+  line-height: var(--text2-line-height);
+  letter-spacing: var(--text2-letter-spacing);
+}
+
+.card .profile-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card .profile-info ul li {
+  background-color: var(--background-btn-color);
+  padding: 12px 0;
+  border-radius: 8px;
+  color: var(--text-color);
+  font-size: var(--text2-font-size);
+  font-weight: var(--text2bold-font-weight);
+  line-height: var(--text2-line-height);
+  letter-spacing: var(--text2-letter-spacing);
+  transition: 0.3s;
+}
+
+.card .profile-info ul a:hover li {
+  background-color: var(--background-btn-hover-color);
+  color: var(--text-hover-color);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(0, 0%, 12%, 80%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.attribution a {
+  color: hsl(75, 94%, 57%);
+}
