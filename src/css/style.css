@@ -69,7 +69,8 @@ body {
   gap: 16px;
 }
 
-.card .profile-info ul li {
+.card .profile-info ul li a {
+  display: block;
   background-color: var(--background-btn-color);
   padding: 12px 0;
   border-radius: 8px;
@@ -81,7 +82,7 @@ body {
   transition: 0.3s;
 }
 
-.card .profile-info ul a:hover li {
+.card .profile-info ul li a:hover {
   background-color: var(--background-btn-hover-color);
   color: var(--text-hover-color);
 }
