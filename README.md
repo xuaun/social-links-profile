@@ -94,7 +94,7 @@ Além disso, atualizei esse projeto com minhas informações:
 
 - [Visão Geral](#visão-geral)
   - [Desafio](#desafio)
-  - [Print](#prints)
+  - [Print](#print)
   - [Links](#links-pt)
 - [Meu processo](#meu-processo)
   - [Tecnologias utilizadas](#tecnologias-utilizadas)
