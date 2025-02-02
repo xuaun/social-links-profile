@@ -56,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project I was able to use flexbox, and variable, and media query concepts in CSS, as well as using a ready-made Figma design to create this component.
+In this project I was able to use flexbox, variable, and media query concepts in CSS, as well as using a ready-made Figma design to create this component.
 
 ```css
 @media (max-width: 460px) {
